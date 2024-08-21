@@ -6,8 +6,8 @@
 // ---------- CONSOLE ----------
 
 console.log('Hello World');
-// log
-// clg
+// log -> console.log
+// clg -> console.log
 // console.log(console); // console object
 
 console.error('This is an error');
@@ -17,11 +17,13 @@ console.table({ name: 'Rishikesh', age: '23', location: 'India', location: ['Mah
 // ---------- COMMENTS ----------
 
 // This is one line comment
+
 /*
     This is 
     multi-line 
         comment
 */
+
 /** Unordered Comment
  * bla
  * bla
