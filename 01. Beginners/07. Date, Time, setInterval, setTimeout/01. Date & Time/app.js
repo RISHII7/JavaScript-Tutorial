@@ -9,8 +9,8 @@ const currentDate = new Date();
 // console.log(currentDate);
 
 // Create a Date object for a specific date and time (year, month, day, hours, minutes, seconds, milliseconds)
-const specificDate = new Date(2024, 8, 5, 12, 2, 0, 0);
-console.log(specificDate);
+const specificDate = new Date(2023, 6, 25, 12, 30, 0, 0);
+// console.log(specificDate);
 
 // ------------------------------------
 
@@ -34,5 +34,32 @@ console.log(specificDate);
 // console.log(`minutes:  ${minutes}`);
 // console.log(`seconds:  ${seconds}`);
 // console.log(`milliseconds:  ${milliseconds}`);
+
+// ------------------------------------
+
+// ------------------------------------
+// Formatting Dates:
+// You can format dates to display them in a more readable format using various methods.
+
+// const date = new Date();
+
+// Convert date to a string representation in different formats
+// console.log(date.toDateString()); // Output: Mon Jul 25 2023
+// console.log(date.toISOString()); // Output: 2023-07-25T00:00:00.000Z
+// console.log(date.toLocaleString()); // Output: 7/25/2023, 12:00:00 AM (based on the user's local timezone)
+// ------------------------------------
+
+// ------------------------------------
+// Working with Time:
+// You can perform operations on dates, such as adding or subtracting time.
+const date = new Date();
+
+// Add 1 day to the current date
+date.setDate(date.getDate() + 1);
+
+// Subtract 2 hours from the current time
+date.setHours(date.getHours() - 2);
+
+console.log(date);
 
 // ------------------------------------
