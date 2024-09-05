@@ -1,0 +1,10 @@
+{
+    "name": "Rushikesh",
+    "age": 25,
+    "email": "rishikesh.palande07@gmail.com",
+    "hobbies": ["Learning", "Treking", "Cooking"],
+    "address": {
+        "city": "Pune",
+        "zipCode": "411032"
+    }
+}
